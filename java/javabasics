@@ -1,0 +1,87 @@
+import java.util.*;
+public class java1 {
+    public static void main(String[] args) {
+        
+    Scanner sc = new Scanner(System.in); //default line for input ability
+       
+       /* 
+       SUM OF 2 NUMBERS
+
+       System.out.println("Enter number a");
+        float a = sc.nextFloat();
+        System.out.println("Enter number b");
+        float b = sc.nextFloat();
+
+        float sum = a + b;
+
+        System.out.println(sum);
+        */
+
+    // area of circle 
+        // float rad = sc.nextFloat();
+        // float area = 3.14f * rad * rad; //f after 3.14 to tell java treat 3.14 af float not double(by deafault behaviour).
+        // System.out.println("Area of circle is " + area);
+
+
+    //total price GST program 
+        // float cost1 = sc.nextFloat();
+        // float cost2 = sc.nextFloat();
+        // float cost3 = sc.nextFloat();
+        // float total = cost1 + cost2 +  cost3;
+        // System.out.println("Total cost is " + total);
+        // float totalg = total + total * 0.18f;
+        // System.out.println("Total cost with tax is " + totalg);
+
+        // int $ = 24; 
+        // System.out.println($);
+
+            // int x = 2, y = 5;
+            // int exp1 = (x * y / x);
+            // int exp2 = (x * (y / x));
+            // System.out.print("exp1 : " + exp1);
+            // System.out.print("\nexp2 : " +exp2);
+
+
+            // int x, y, z;
+            // x = y = z = 2;
+            // x += y;
+            // y -= z;
+            // z /= (x + y);
+            // System.out.println(x + " " + y + " " + z);
+
+    //         System.out.println("Enter year");
+    //         int year = sc.nextInt(); // dont use nextint() use nextInt() to avoid compilation error
+    //         if(year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)){
+    //         System.out.println(year + " is a leap year\n");
+           
+    // }
+    // else{
+    //     System.out.println(year + " is not a leap year\n");
+    // }
+
+
+    // System.out.println("Enter a number : ");
+    // int num = sc.nextInt();
+    // int rev_num=0,rem;
+    // while(num!=0){
+    //     rem = num%10;
+    //     rev_num=rev_num*10+rem;
+    //     num/=10;
+        
+    // }
+    // System.out.println("Reversed number is " + rev_num);
+    
+
+     
+}
+}
+
+            
+    
+
+
+
+    
+
+
+
