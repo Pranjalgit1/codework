@@ -21,7 +21,7 @@ public class subarrays {
                 System.out.println();
 
             }
-         
+         System.out.println();
         }
       
     
