@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    char name[100];
+    int i = 0;
+
+    printf("Enter your full name: ");
+    fgets(name, sizeof(name), stdin);
+    
+    // Remove the newline character manually
+    while (name[i] != '\0') {
+        if (name[i] == '\n') {
+            name[i] = '\0';
+            break;
+        }
+        i++;
+    }
+
+    // Print the first character if it's a letter
+    if ((name[0] >= 'A' && name[0] <= 'Z') || (name[0] >= 'a' && name[0] <= 'z')) {
+        printf("%c", name[0]);
+    }
+
+    // Print the first letter after each space
+    for (i = 1; name[i] != '\0'; i++) {
+        if (name[i] == ' ' && ((name[i + 1] >= 'A' && name[i + 1] <= 'Z') || (name[i + 1] >= 'a' && name[i + 1] <= 'z'))) {
+            printf("%c", name[i + 1]);
+        }
+    }
+    printf("\n");
+
+    return 0;
+}
